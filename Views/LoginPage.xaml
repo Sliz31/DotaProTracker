@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:DotaProTracker.ViewModels"
+             x:Class="DotaProTracker.LoginPage"
+             Title="LoginPage">
+               
+    <ContentPage.BindingContext>
+        <!-- Указываем ViewModel для страницы -->
+        <vm:LoginPageViewModel />
+    </ContentPage.BindingContext>
+    
+    <VerticalStackLayout Padding="20">
+        <!-- Заголовок страницы -->
+        <Label Text="Login"
+               FontSize="26"
+               FontAttributes="Bold"
+               HorizontalOptions="Center"
+               Margin="0,20,0,10" />
+
+        <!-- Picker для выбора метода входа -->
+        <Picker Title="Select Login Method"
+                ItemsSource="{Binding LoginMethods}"
+                SelectedIndex="{Binding SelectedLoginMethodIndex}"
+                HorizontalOptions="Center"
+                Margin="0,10" />
+
+        <!-- Поле ввода для логина (email или nickname) -->
+        <Entry Placeholder="{Binding LoginPlaceholder}"
+               Text="{Binding LoginInput}"
+               Margin="0,10" />
+
+        <!-- Поле ввода пароля, привязка к ViewModel -->
+        <Entry Placeholder="Enter your password"
+               IsPassword="True"
+               Text="{Binding Password}"
+               x:Name="PasswordEntry"
+               Margin="0,10" />
+
+        <!-- Кнопка входа -->
+        <Button Text="Login" 
+                BackgroundColor="Blue"
+                TextColor="White"
+                HorizontalOptions="Center"
+                Margin="0,20"
+                Clicked="OnLoginClicked" />
+        
+        <!-- Кнопка возрата на регистрацию -->
+        <Button Text="Don't have an account? Regiser now!" 
+        BackgroundColor="Transparent"
+        TextColor="blue"
+        Clicked="OnRegisterClicked" />
+
+    </VerticalStackLayout>
+</ContentPage>

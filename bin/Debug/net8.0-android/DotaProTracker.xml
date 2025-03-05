@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DotaProTracker</name>
+    </assembly>
+    <members>
+        <member name="M:DotaProTracker.Services.FirebaseService.Init">
+            <summary>
+            Инициализирует подключение к Firebase согласно новому гайду.
+            </summary>
+        </member>
+    </members>
+</doc>

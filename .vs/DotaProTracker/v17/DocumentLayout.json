@@ -1,0 +1,639 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Shipaev Peter\\DotaProTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\services\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:services\\firebaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\dotaprotracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:dotaprotracker.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\playerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\playerspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\heroespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\heroespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\metapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\metapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\metapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\metapage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\heroespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\heroespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\playerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\playerspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:viewmodels\\homepageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:viewmodels\\registrationpageviewmode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\welcomepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\welcomepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:viewmodels\\baseviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:viewmodels\\booltocolorconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:viewmodels\\loginpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\dotaprotracker.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:dotaprotracker.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:main.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:views\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tihonist\\AppData\\Local\\Temp\\VSGeneratedDocuments\\ece84ef8-2679-bec8-54d2-9c3f778d2a06\\App.xaml.sg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\todo\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:todo\\todo.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|d:\\shipaev peter\\dotaprotracker\\main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4FDB0330-CF81-41FE-AD33-1FBA776BC6B0}|DotaProTracker.csproj|solutionrelative:main.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Shipaev Peter\\DotaProTracker\\LoginPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Person.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Person.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Models\\Person.cs",
+              "RelativeToolTip": "Models\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T12:06:24.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FirebaseService.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Services\\FirebaseService.cs",
+              "RelativeDocumentMoniker": "Services\\FirebaseService.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Services\\FirebaseService.cs",
+              "RelativeToolTip": "Services\\FirebaseService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T11:19:26.668Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\LoginPage.xaml.cs",
+              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-26T07:09:20.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HomePage.xaml.cs",
+              "RelativeToolTip": "Views\\HomePage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAABQwCoAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:57:31.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:05:01.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\HomePage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HomePage.xaml",
+              "RelativeToolTip": "Views\\HomePage.xaml",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAwwM4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T11:52:15.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\RegistrationPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\RegistrationPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\RegistrationPage.xaml.cs",
+              "RelativeToolTip": "Views\\RegistrationPage.xaml.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAwwD0AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:10:32.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HeroesPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HeroesPage.xaml",
+              "RelativeDocumentMoniker": "Views\\HeroesPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HeroesPage.xaml",
+              "RelativeToolTip": "Views\\HeroesPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T07:15:04.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MetaPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MetaPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MetaPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MetaPage.xaml",
+              "RelativeToolTip": "Views\\MetaPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T07:16:03.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "PlayersPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\PlayersPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\PlayersPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\PlayersPage.xaml.cs",
+              "RelativeToolTip": "Views\\PlayersPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:24:45.958Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "HeroesPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HeroesPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\HeroesPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\HeroesPage.xaml.cs",
+              "RelativeToolTip": "Views\\HeroesPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:21:40.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T12:31:19.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DotaProTracker.csproj",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj",
+              "RelativeDocumentMoniker": "DotaProTracker.csproj",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj",
+              "RelativeToolTip": "DotaProTracker.csproj",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswE0AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-11T08:21:41.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MetaPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MetaPage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\MetaPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MetaPage.xaml.cs",
+              "RelativeToolTip": "Views\\MetaPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T07:21:57.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PlayersPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\PlayersPage.xaml",
+              "RelativeDocumentMoniker": "Views\\PlayersPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\PlayersPage.xaml",
+              "RelativeToolTip": "Views\\PlayersPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-17T07:16:39.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HomePageViewModel.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\HomePageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\HomePageViewModel.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\HomePageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\HomePageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:53:50.964Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\RegistrationPage.xaml",
+              "RelativeDocumentMoniker": "Views\\RegistrationPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\RegistrationPage.xaml",
+              "RelativeToolTip": "Views\\RegistrationPage.xaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwAsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T12:16:30.375Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\LoginPage.xaml",
+              "RelativeToolTip": "Views\\LoginPage.xaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwAcAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T07:09:21.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "BaseViewModel.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\BaseViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BaseViewModel.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\BaseViewModel.cs",
+              "RelativeToolTip": "ViewModels\\BaseViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:55:36.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "BoolToColorConverter.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\BoolToColorConverter.cs",
+              "RelativeDocumentMoniker": "ViewModels\\BoolToColorConverter.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\BoolToColorConverter.cs",
+              "RelativeToolTip": "ViewModels\\BoolToColorConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T11:58:29.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "RegistrationPageViewMode.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\RegistrationPageViewMode.cs",
+              "RelativeDocumentMoniker": "ViewModels\\RegistrationPageViewMode.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\RegistrationPageViewMode.cs",
+              "RelativeToolTip": "ViewModels\\RegistrationPageViewMode.cs",
+              "ViewState": "AgIAAMgAAAAAAAAAAAAqwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T06:53:52.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LoginPageViewModel.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\LoginPageViewModel.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\ViewModels\\LoginPageViewModel.cs",
+              "RelativeToolTip": "ViewModels\\LoginPageViewModel.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T08:58:23.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WelcomePage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\WelcomePage.xaml.cs",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\WelcomePage.xaml.cs",
+              "RelativeToolTip": "Views\\WelcomePage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-11T08:12:38.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WelcomePage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\WelcomePage.xaml",
+              "RelativeDocumentMoniker": "Views\\WelcomePage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\WelcomePage.xaml",
+              "RelativeToolTip": "Views\\WelcomePage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-26T07:09:15.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T08:23:43.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DotaProTracker.csproj.Backup.tmp",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "DotaProTracker.csproj.Backup.tmp",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj.Backup.tmp",
+              "RelativeToolTip": "DotaProTracker.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T12:31:23.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T11:59:45.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.xaml.sg.cs",
+              "DocumentMoniker": "C:\\Users\\tihonist\\AppData\\Local\\Temp\\VSGeneratedDocuments\\ece84ef8-2679-bec8-54d2-9c3f778d2a06\\App.xaml.sg.cs",
+              "ToolTip": "App.xaml.sg.cs [generated by Microsoft.Maui.Controls.SourceGen.CodeBehindGenerator]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenToolTip": "App.xaml.sg.cs [generated by Microsoft.Maui.Controls.SourceGen.CodeBehindGenerator]",
+              "WhenOpened": "2024-12-11T08:55:18.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:01:08.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MainPage.xaml",
+              "RelativeDocumentMoniker": "Views\\MainPage.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Views\\MainPage.xaml",
+              "RelativeToolTip": "Views\\MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-12-15T12:16:27.126Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Main.xaml",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Main.xaml",
+              "RelativeDocumentMoniker": "Main.xaml",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Main.xaml",
+              "RelativeToolTip": "Main.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T06:03:34.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.100\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.FrameworkReferenceResolution.targets",
+              "ViewState": "AgIAAMoBAAAAAAAAAAAWwO4BAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-12-15T11:47:15.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "TODO.txt",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\TODO\\TODO.txt",
+              "RelativeDocumentMoniker": "TODO\\TODO.txt",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\TODO\\TODO.txt",
+              "RelativeToolTip": "TODO\\TODO.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-11-27T09:04:06.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T08:23:46.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "E:\\Shipaev Peter\\DotaProTracker\\LoginPage.xaml",
+              "ToolTip": "E:\\Shipaev Peter\\DotaProTracker\\LoginPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T08:22:19.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml.cs",
+              "ToolTip": "E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T07:46:51.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml",
+              "ToolTip": "E:\\Shipaev Peter\\DotaProTracker\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-22T07:46:33.562Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "RegistrationPage.xaml.cs",
+              "DocumentMoniker": "E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml.cs",
+              "ToolTip": "E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T07:17:55.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Main.xaml.cs",
+              "DocumentMoniker": "D:\\Shipaev Peter\\DotaProTracker\\Main.xaml.cs",
+              "RelativeDocumentMoniker": "Main.xaml.cs",
+              "ToolTip": "D:\\Shipaev Peter\\DotaProTracker\\Main.xaml.cs",
+              "RelativeToolTip": "Main.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T06:30:53.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RegistrationPage.xaml",
+              "DocumentMoniker": "E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml",
+              "ToolTip": "E:\\Shipaev Peter\\DotaProTracker\\RegistrationPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-19T06:08:48.964Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

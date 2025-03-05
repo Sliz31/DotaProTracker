@@ -1,0 +1,103 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DotaProTracker
+build_property.ProjectDir = D:\Shipaev Peter\DotaProTracker\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[D:/Shipaev Peter/DotaProTracker/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[D:/Shipaev Peter/DotaProTracker/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Main.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Main.xaml
+build_metadata.AdditionalFiles.TargetPath = Main.xaml
+build_metadata.AdditionalFiles.RelativePath = Main.xaml
+
+[D:/Shipaev Peter/DotaProTracker/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/HeroesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.HeroesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HeroesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HeroesPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/MetaPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.MetaPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\MetaPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\MetaPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/PlayersPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.PlayersPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\PlayersPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\PlayersPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/RegistrationPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.RegistrationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
+
+[D:/Shipaev Peter/DotaProTracker/Views/WelcomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.WelcomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\WelcomePage.xaml
