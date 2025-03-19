@@ -22,5 +22,12 @@ namespace DotaProTracker
             // Переход на страницу WelcomePage
             await Navigation.PushAsync(new RegistrationPage());
         }
+
+        // Обработчик для кнопки "HomePage"
+        private async void OnHomePage(object sender, EventArgs e)
+        {
+            // Переход на страницу HomePage
+            await Navigation.PushAsync(new HomePage());
+        }
     }
 }

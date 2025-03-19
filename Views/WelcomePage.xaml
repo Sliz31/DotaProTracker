@@ -28,6 +28,11 @@
                     TextColor="White"
                     WidthRequest="100"
                     Clicked="OnRegisterClicked" />
+            <Button Text="Developer" 
+                    BackgroundColor="Green"
+                    TextColor="White"
+                    WidthRequest="100"
+                    Clicked="OnHomePage" />
         </HorizontalStackLayout>
         <Image Source="stariy_bog.jpg"
                HeightRequest="150"

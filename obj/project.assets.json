@@ -81800,31 +81800,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tihonist\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Slime\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj",
+      "projectUniqueName": "C:\\Users\\Slime\\Source\\Repos\\DotaProTracker\\DotaProTracker.csproj",
       "projectName": "DotaProTracker",
-      "projectPath": "D:\\Shipaev Peter\\DotaProTracker\\DotaProTracker.csproj",
-      "packagesPath": "C:\\Users\\tihonist\\.nuget\\packages\\",
-      "outputPath": "D:\\Shipaev Peter\\DotaProTracker\\obj\\",
+      "projectPath": "C:\\Users\\Slime\\Source\\Repos\\DotaProTracker\\DotaProTracker.csproj",
+      "packagesPath": "C:\\Users\\Slime\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Slime\\Source\\Repos\\DotaProTracker\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tihonist\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Slime\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0-android",
