@@ -10,7 +10,7 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>com.companyname.dotaprotracker</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>
     </WindowsSdkPath>
-    <LayoutDir>C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <LayoutDir>C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>51BD8A3B82924A272948C8556AA6EBDF2D7DF5DB8F17D7FE50ECB8286E664677</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>com.companyname.dotaprotracker_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>com.companyname.dotaprotracker_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,276 +27,276 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-03-19T19:55:40.786</Modified>
+      <Modified>2025-03-19T21:38:23.446</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2025-03-19T16:22:21.821</Modified>
+      <Modified>2025-03-19T20:37:53.197</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.runtimeconfig.json">
       <PackagePath>DotaProTracker.runtimeconfig.json</PackagePath>
-      <Modified>2025-03-19T19:50:25.138</Modified>
+      <Modified>2025-03-19T20:37:52.831</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.dll">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.dll">
       <PackagePath>DotaProTracker.dll</PackagePath>
-      <Modified>2025-03-19T19:55:39.465</Modified>
+      <Modified>2025-03-19T21:38:21.941</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DotaProTracker.exe</PackagePath>
-      <Modified>2025-03-19T19:55:39.516</Modified>
+      <Modified>2025-03-19T21:38:21.995</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
-      <Modified>2025-03-19T14:02:37.329</Modified>
+      <Modified>2025-03-19T20:32:07.252</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-100.png">
       <PackagePath>loadSplashScreen.scale-100.png</PackagePath>
-      <Modified>2025-03-19T14:02:41.159</Modified>
+      <Modified>2025-03-19T20:32:11.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-125.png">
       <PackagePath>loadSplashScreen.scale-125.png</PackagePath>
-      <Modified>2025-03-19T14:02:41.160</Modified>
+      <Modified>2025-03-19T20:32:11.558</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-150.png">
       <PackagePath>loadSplashScreen.scale-150.png</PackagePath>
-      <Modified>2025-03-19T14:02:41.160</Modified>
+      <Modified>2025-03-19T20:32:11.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-200.png">
       <PackagePath>loadSplashScreen.scale-200.png</PackagePath>
-      <Modified>2025-03-19T14:02:41.161</Modified>
+      <Modified>2025-03-19T20:32:11.560</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\loadSplashScreen.scale-400.png">
       <PackagePath>loadSplashScreen.scale-400.png</PackagePath>
-      <Modified>2025-03-19T14:02:41.162</Modified>
+      <Modified>2025-03-19T20:32:11.561</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
-      <Modified>2025-03-19T14:02:41.146</Modified>
+      <Modified>2025-03-19T20:32:11.544</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
-      <Modified>2025-03-19T14:02:41.147</Modified>
+      <Modified>2025-03-19T20:32:11.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.233</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.535</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.232</Modified>
+      <Modified>2025-03-19T20:34:14.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.230</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.231</Modified>
+      <Modified>2025-03-19T20:34:14.534</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.229</Modified>
+      <Modified>2025-03-19T20:34:14.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookmark.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\bookmark.scale-100.png">
       <PackagePath>bookmark.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stariy_bog.scale-100.jpg">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\stariy_bog.scale-100.jpg">
       <PackagePath>stariy_bog.scale-100.jpg</PackagePath>
-      <Modified>2025-03-19T16:22:01.228</Modified>
+      <Modified>2025-03-19T20:34:14.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Slime\source\repos\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.deps.json">
+    <AppxPackagedFile Include="C:\Programmy_C\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.deps.json">
       <PackagePath>DotaProTracker.deps.json</PackagePath>
-      <Modified>2025-03-19T19:50:24.958</Modified>
+      <Modified>2025-03-19T20:37:52.661</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Slime\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.57\lib\net8.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>

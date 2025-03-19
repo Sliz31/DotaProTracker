@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Slime\\source\\repos\\DotaProTracker\\DotaProTracker.csproj": {}
+    "C:\\Programmy_C\\DotaProTracker\\DotaProTracker.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Slime\\source\\repos\\DotaProTracker\\DotaProTracker.csproj": {
+    "C:\\Programmy_C\\DotaProTracker\\DotaProTracker.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Slime\\source\\repos\\DotaProTracker\\DotaProTracker.csproj",
+        "projectUniqueName": "C:\\Programmy_C\\DotaProTracker\\DotaProTracker.csproj",
         "projectName": "DotaProTracker",
-        "projectPath": "C:\\Users\\Slime\\source\\repos\\DotaProTracker\\DotaProTracker.csproj",
+        "projectPath": "C:\\Programmy_C\\DotaProTracker\\DotaProTracker.csproj",
         "packagesPath": "C:\\Users\\Slime\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Slime\\source\\repos\\DotaProTracker\\obj\\",
+        "outputPath": "C:\\Programmy_C\\DotaProTracker\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

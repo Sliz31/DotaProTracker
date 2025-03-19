@@ -1,1 +1,1 @@
-C:\Users\Slime\source\repos\DotaProTracker\DotaProTracker.csproj;x64
+C:\Programmy_C\DotaProTracker\DotaProTracker.csproj;x64

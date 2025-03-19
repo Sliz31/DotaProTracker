@@ -90,13 +90,18 @@
 
         
         <!-- Кнопка возрата на логин -->
-        <Button Text="Have an account? Login now!" 
-        BackgroundColor="Transparent"
-        TextColor="blue"
-        Clicked="OnLoginClicked">
-           
-        </Button>
-
+        <Label HorizontalOptions="Center" VerticalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Have an account? " TextColor="White" />
+                    <Span Text="Login now!" TextColor="Blue" TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnLoginClicked" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
     </VerticalStackLayout>
 </ContentPage>
     

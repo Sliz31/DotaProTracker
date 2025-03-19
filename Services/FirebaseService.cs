@@ -16,9 +16,6 @@ namespace DotaProTracker.Services
         private static FirebaseAuthClient auth;
         private static FirebaseClient client;
 
-        /// <summary>
-        /// Инициализирует подключение к Firebase согласно новому гайду.
-        /// </summary>
         public static void Init()
         {
             var config = new FirebaseAuthConfig()
@@ -43,8 +40,6 @@ namespace DotaProTracker.Services
         {
             try
             {
-                //var authLink = await auth.CreateUserWithEmailAndPasswordAsync(person.Email, person.Password);
-                //person.FireBaseID = authLink.User.Uid;
                 client.Child("persons").PostAsync(person);
 
             }
@@ -54,96 +49,37 @@ namespace DotaProTracker.Services
             }
         }
 
+        public static async Task<Person?> AuthenticateUserAsync(string email, string password)
+        {
+            try
+            {
+                // Проверка, инициализирован ли клиент Firebase
+                if (client == null)
+                {
+                    throw new Exception("Firebase client не инициализирован. Убедитесь, что вызван FirebaseServices.Init().");
+                }
 
-        ///// <summary>
-        ///// Выполняет вход пользователя по email и password.
-        ///// </summary>
-        //public static async Task<FirebaseAuthLink> LoginAsync(string email, string password)
-        //{
-        //    try
-        //    {
-        //        var authLink = await auth.SignInWithEmailAndPasswordAsync(email, password);
-        //        return authLink;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception("Ошибка входа: " + ex.Message);
-        //    }
-        //}
+                var usersSnapshot = await client.Child("persons").OnceAsync<Person>();
 
-        /// <summary>
-        ///// Регистрирует нового пользователя.
-        ///// </summary>
-        //public static async Task<FirebaseAuthLink> RegisterAsync(string email, string password)
-        //{
-        //    try
-        //    {
-        //        var authLink = await auth.CreateUserWithEmailAndPasswordAsync(email, password);
-        //        return authLink;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception("Ошибка регистрации: " + ex.Message);
-        //    }
-        //}
+                // Проверка, получены ли данные
+                if (usersSnapshot == null)
+                {
+                    throw new Exception("Не удалось получить данные пользователей из Firebase.");
+                }
 
-        /// <summary>
-        /// Получает все элементы (items) из базы данных.
-        /// </summary>
-        //public static async Task<List<Item>> GetAllItemsAsync()
-        //{
-        //    try
-        //    {
-        //        var itemsFromFB = await client.Child("items").OnceAsync<Item>();
-        //        var items = itemsFromFB.Select(fbItm => new Item()
-        //        {
-        //            Id = fbItm.Object.Id,
-        //            Name = fbItm.Object.Name,
-        //            Description = fbItm.Object.Description,
-        //            FirebaseKey = fbItm.Key
-        //        }).ToList();
+                var user = usersSnapshot.Select(u => u.Object).FirstOrDefault(u => u.Email == email);
 
-        //        return items;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception("Ошибка получения данных: " + ex.Message);
-        //    }
-        //}
+                if (user != null && user.Password == password)
+                {
+                    return user;
+                }
 
-        ///// <summary>
-        ///// Добавляет новый элемент в базу данных.
-        ///// </summary>
-        //public static async Task AddItemAsync(Item newItem)
-        //{
-        //    try
-        //    {
-        //        var result = await client.Child("items").PostAsync(newItem);
-        //        // Сохраняем сгенерированный ключ Firebase в свойство FirebaseKey элемента
-        //        newItem.FirebaseKey = result.Key;
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception("Ошибка добавления элемента: " + ex.Message);
-        //    }
-        //}
-
-        ///// <summary>
-        ///// Удаляет указанный элемент из базы данных.
-        ///// </summary>
-        //public static async Task DeleteItemAsync(Item itemToDelete)
-        //{
-        //    try
-        //    {
-        //        if (string.IsNullOrEmpty(itemToDelete.FirebaseKey))
-        //            throw new Exception("FirebaseKey отсутствует");
-
-        //        await client.Child("items").Child(itemToDelete.FirebaseKey).DeleteAsync();
-        //    }
-        //    catch (Exception ex)
-        //    {
-        //        throw new Exception("Ошибка удаления элемента: " + ex.Message);
-        //    }
-        //}
+                return null; // Если пользователь не найден или пароль неверный
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Ошибка при аутентификации: " + ex.Message);
+            }
+        }
     }
 }

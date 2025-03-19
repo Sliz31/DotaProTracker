@@ -1,4 +1,8 @@
 ﻿using DotaProTracker.Models;
+using DotaProTracker.Services;
+using Microsoft.Maui.Controls;
+using DotaProTracker.ViewModels;
+using System;
 
 namespace DotaProTracker;
 
@@ -7,6 +11,7 @@ public partial class LoginPage : ContentPage
     public LoginPage()
     {
         InitializeComponent();
+        BindingContext = new LoginPageViewModel();
     }
 
     // Обработчик кнопки "Login"
@@ -17,11 +22,9 @@ public partial class LoginPage : ContentPage
 
         if (viewModel != null)
         {
-            // Получаем значение LoginInput
-            var loginValue = viewModel.LoginInput;
-
-            // Проверяем пользователя по email и паролю
-             var person = UserStore.ValidateUser(loginValue, viewModel.Password);
+            FirebaseService.Init();
+            var person = await FirebaseService.AuthenticateUserAsync(viewModel.LoginInput, viewModel.Password);
+            
 
             if (person != null)
             {
@@ -32,6 +35,7 @@ public partial class LoginPage : ContentPage
             else
             {
                 // Ошибка: неверный email или пароль
+                await DisplayAlert("Error", $"{person.Email} + {person.Password}", "OK");
                 await DisplayAlert("Error", "Invalid email or password", "OK");
             }
         }

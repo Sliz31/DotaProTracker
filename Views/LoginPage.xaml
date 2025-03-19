@@ -46,10 +46,17 @@
                 Clicked="OnLoginClicked" />
         
         <!-- Кнопка возрата на регистрацию -->
-        <Button Text="Don't have an account? Regiser now!" 
-        BackgroundColor="Transparent"
-        TextColor="blue"
-        Clicked="OnRegisterClicked" />
-
+        <Label HorizontalOptions="Center" VerticalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span Text="Don't have an account? " TextColor="White" />
+                    <Span Text="Regiser now!" TextColor="Blue" TextDecorations="Underline">
+                        <Span.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnRegisterClicked" />
+                        </Span.GestureRecognizers>
+                    </Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
     </VerticalStackLayout>
 </ContentPage>
