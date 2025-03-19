@@ -12,75 +12,80 @@
              3) Прокручиваемый контент -->
         <Grid RowDefinitions="Auto, Auto, *">
 
-            <!-- (1) Верхняя панель (row 0) -->
-            <Grid Grid.Row="0" 
-                  ColumnDefinitions="Auto, *, Auto"
-                  Padding="10"
-                  BackgroundColor="White">
-                <!-- Изображение (логотип) слева -->
+            <!-- (1) Верхняя панель (row 0) 
+                 Включает 2 столбца:
+                 col 0: Картинка
+                 col 1: Под-сетка для "DotaProTracker", Saved, (User), Settings -->
+            <Grid Grid.Row="0" ColumnDefinitions="Auto,*" Padding="10">
+
+                <!-- col 0: Картинка слева (180x90) -->
                 <Image Source="stariy_bog.jpg"
                        WidthRequest="180"
                        HeightRequest="90"
                        Grid.Column="0"
                        VerticalOptions="Center" />
-                <!-- Название приложения по центру -->
-                <Label Text="DotaProTracker"
-                       FontSize="20"
-                       FontAttributes="Bold"
-                       VerticalOptions="Center"
-                       HorizontalOptions="Center"
-                       Grid.Column="1" />
-                <!-- Имя пользователя и кнопка настроек справа -->
-                <HorizontalStackLayout Grid.Column="2"
-                                       Spacing="10"
-                                       VerticalOptions="Center"
-                                       HorizontalOptions="End">
+
+                <!-- col 1: Под-сетка с 2 строками (верх: DotaProTracker и (User), низ: Saved и Settings) -->
+                <Grid Grid.Column="1" RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" Padding="5">
+
+                    <!-- (1.1) Верхняя строка: DotaProTracker (слева), (User) (справа) -->
+                    <Label Text="DotaProTracker"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="Black"
+                           VerticalOptions="Start"
+                           Grid.Row="0" Grid.Column="0" />
+
                     <Label Text="(User)"
-                           FontSize="14"
-                           VerticalOptions="Center"/>
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           TextColor="Black"
+                           HorizontalOptions="End"
+                           VerticalOptions="Start"
+                           Grid.Row="0" Grid.Column="1" />
+
+                    <!-- (1.2) Нижняя строка: Saved (с иконкой) (слева), Settings (справа) -->
+                    <Button Text="Saved"
+                            ImageSource="bookmark.png"
+                            HorizontalOptions="Start"
+                            VerticalOptions="End"
+                            Clicked="OnSavedClicked"
+                            Grid.Row="1" Grid.Column="0" />
+
                     <Button Text="Settings"
                             FontSize="14"
-                            VerticalOptions="Center"
-                            Clicked="OnSettingsClicked"/>
-                </HorizontalStackLayout>
+                            HorizontalOptions="End"
+                            VerticalOptions="End"
+                            Clicked="OnSettingsClicked"
+                            Grid.Row="1" Grid.Column="1" />
+                </Grid>
             </Grid>
 
             <!-- (2) Горизонтальное меню (row 1) -->
             <Grid Grid.Row="1"
-                  ColumnDefinitions="*,*,*,*,*"
+                  ColumnDefinitions="*,*,*,*"
                   BackgroundColor="#EEEEEE"
                   Padding="5">
-                <!-- Home -->
                 <Button Text="Home"
                         BackgroundColor="#ccccff"
                         FontSize="14"
                         Grid.Column="0"
                         Clicked="OnHomeClicked" />
-                <!-- Heroes -->
                 <Button Text="Heroes"
                         BackgroundColor="#ccccff"
                         FontSize="14"
                         Grid.Column="1"
                         Clicked="OnHeroesClicked" />
-                <!-- Meta -->
                 <Button Text="Meta"
                         BackgroundColor="#ccccff"
                         FontSize="14"
                         Grid.Column="2"
                         Clicked="OnMetaClicked" />
-                <!-- Players -->
                 <Button Text="Players"
                         BackgroundColor="#ccccff"
                         FontSize="14"
                         Grid.Column="3"
                         Clicked="OnPlayersClicked" />
-                <!-- Saved (с иконкой) -->
-                <Button Text="Saved"
-                        ImageSource="bookmark.png"
-                        BackgroundColor="#ccccff"
-                        FontSize="14"
-                        Grid.Column="4"
-                        Clicked="OnSavedClicked" />
             </Grid>
 
             <!-- Контент -->
