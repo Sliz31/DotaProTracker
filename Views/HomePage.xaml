@@ -5,26 +5,68 @@
              BackgroundColor="White">
 
     <!-- Верхняя панель -->
-    <VerticalStackLayout Padding="10" Spacing="15">
-        <!-- Верхняя панель -->
-        <Grid Padding="5" ColumnDefinitions="*,Auto,Auto">
-            <Label Text="DotaProTracker" 
-                   FontSize="24" 
-                   FontAttributes="Bold" 
-                   VerticalOptions="Center" 
-                   HorizontalOptions="Start"/>
-
-            <Button Text="Saved"
-                    FontSize="14"
-                    HorizontalOptions="End"
-                    Clicked="OnSavedClicked"/>
-
-            <Button Text="Settings"
-                    FontSize="14"
-                    HorizontalOptions="End"
-                    Clicked="OnSettingsClicked"/>
-
+    <VerticalStackLayout Spacing="0">
+        <Grid ColumnDefinitions="Auto, *, Auto"
+              Padding="10"
+              BackgroundColor="White">
             
+            <!-- (1) Картинка или логотип слева -->
+            <Image Source="stariy_bog.jpg" 
+                   WidthRequest="100" 
+                   HeightRequest="50"
+                   Grid.Column="0" 
+                   VerticalOptions="Center" />
+
+            <!-- (2) Название приложения по центру -->
+            <Label Text="DotaProTracker"
+                   FontSize="20"
+                   HorizontalTextAlignment="Start"
+                   VerticalTextAlignment="Start"
+                   FontAttributes="Bold"
+                   Grid.Column="1" />
+
+            <!-- (3) Имя пользователя и кнопка настроек справа -->
+            <HorizontalStackLayout Grid.Column="2"
+                                   Spacing="10"
+                                   VerticalOptions="Center">
+                
+                <Label Text="(User)"
+                       FontSize="14"
+                       VerticalOptions="Center"/>
+                <Button Text="Settings"
+                        FontSize="14"
+                        VerticalOptions="Center"
+                        Clicked="OnSettingsClicked"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout BackgroundColor="#EEEEEE" 
+                       Padding="10"
+                       Spacing="10">
+                <Button Text="Home" />
+                <Button Text="Heroes" />
+                <Button Text="Meta" />
+                <Button Text="Players" />
+
+                <!-- Кнопка Saved с иконкой -->
+                <Button>
+                    <Button.Content>
+                        <HorizontalStackLayout>
+                            <Label Text="Saved" 
+                       FontAttributes="Bold"
+                       VerticalOptions="Center"/>
+                            <Image Source="bookmark.png"
+                       WidthRequest="20"
+                       HeightRequest="20"
+                       Margin="5,0,0,0" />
+                        </HorizontalStackLayout>
+                    </Button.Content>
+                </Button>
+            </HorizontalStackLayout>
+
+
+
+
+
         </Grid>
 
         <!-- Панель с категориями -->

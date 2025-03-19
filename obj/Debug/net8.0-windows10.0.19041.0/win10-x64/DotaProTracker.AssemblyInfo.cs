@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DotaProTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+f2a8b43ecfdf177a0030432d745aead653ab06bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("DotaProTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DotaProTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
