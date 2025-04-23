@@ -1,1 +1,1 @@
-C:\Programmy_C\DotaProTracker\DotaProTracker.csproj;x64
+E:\Shipaev Peter\DotaProTracker\DotaProTracker.csproj;x64

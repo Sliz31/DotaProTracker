@@ -36,7 +36,7 @@
                            VerticalOptions="Start"
                            Grid.Row="0" Grid.Column="0" />
 
-                    <Label Text="(User)"
+                    <Label x:Name="WelcomeLabel"
                            FontSize="20"
                            FontAttributes="Bold"
                            TextColor="Black"

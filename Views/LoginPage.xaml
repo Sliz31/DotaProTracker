@@ -30,6 +30,8 @@
                Text="{Binding LoginInput}"
                Margin="0,10" />
 
+        <Entry x:Name="NicknameEntry" Placeholder="Enter your nickname" />
+
         <!-- Поле ввода пароля, привязка к ViewModel -->
         <Entry Placeholder="Enter your password"
                IsPassword="True"
@@ -49,7 +51,7 @@
         <Label HorizontalOptions="Center" VerticalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="Don't have an account? " TextColor="White" />
+                    <Span Text="Don't have an account? " TextColor="Black" />
                     <Span Text="Regiser now!" TextColor="Blue" TextDecorations="Underline">
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnRegisterClicked" />

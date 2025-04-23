@@ -2,8 +2,9 @@
 using DotaProTracker.Services;
 using Microsoft.Maui.Controls;
 using DotaProTracker.ViewModels;
+using DotaProTracker.Views;
+using Microsoft.Maui.Storage;
 using System;
-
 namespace DotaProTracker;
 
 public partial class LoginPage : ContentPage
@@ -17,27 +18,21 @@ public partial class LoginPage : ContentPage
     // Обработчик кнопки "Login"
     private async void OnLoginClicked(object sender, EventArgs e)
     {
-        // Получаем контекст ViewModel
-        var viewModel = BindingContext as ViewModels.LoginPageViewModel;
+        FirebaseService.Init();
 
-        if (viewModel != null)
+        string nickname = NicknameEntry.Text;
+        string password = PasswordEntry.Text;
+
+        var person = await FirebaseService.AuthenticateUserAsync(nickname, password);
+
+        if (person != null)
         {
-            FirebaseService.Init();
-            var person = await FirebaseService.AuthenticateUserAsync(viewModel.LoginInput, viewModel.Password);
-            
-
-            if (person != null)
-            {
-                // Успешный вход
-                await DisplayAlert("Login", $"Welcome back, {person.Name}!", "OK");
-                await Navigation.PushAsync(new HomePage());
-            }
-            else
-            {
-                // Ошибка: неверный email или пароль
-                await DisplayAlert("Error", $"{person.Email} + {person.Password}", "OK");
-                await DisplayAlert("Error", "Invalid email or password", "OK");
-            }
+            Preferences.Set("LoggedInNickname", person.Nickname);
+            await Navigation.PushAsync(new HomePage(person.Nickname));
+        }
+        else
+        {
+            await DisplayAlert("Ошибка", "Неверный никнейм или пароль", "OK");
         }
     }
 

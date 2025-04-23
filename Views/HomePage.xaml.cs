@@ -5,6 +5,12 @@ namespace DotaProTracker
 {
     public partial class HomePage : ContentPage
     {
+        public HomePage(string nickname)
+        {
+            InitializeComponent();
+            WelcomeLabel.Text = nickname;
+        }
+
         public HomePage()
         {
             InitializeComponent();
