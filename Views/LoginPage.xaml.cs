@@ -5,6 +5,7 @@ using DotaProTracker.ViewModels;
 using DotaProTracker.Views;
 using Microsoft.Maui.Storage;
 using System;
+using Microsoft.Extensions.Logging.Abstractions;
 namespace DotaProTracker;
 
 public partial class LoginPage : ContentPage
@@ -20,19 +21,23 @@ public partial class LoginPage : ContentPage
     {
         FirebaseService.Init();
 
-        string nickname = NicknameEntry.Text;
-        string password = PasswordEntry.Text;
-
-        var person = await FirebaseService.AuthenticateUserAsync(nickname, password);
-
-        if (person != null)
+        if (BindingContext is LoginPageViewModel viewModel)
         {
-            Preferences.Set("LoggedInNickname", person.Nickname);
-            await Navigation.PushAsync(new HomePage(person.Nickname));
-        }
-        else
-        {
-            await DisplayAlert("Ошибка", "Неверный никнейм или пароль", "OK");
+            string loginInput = viewModel.LoginInput;
+            string password = viewModel.Password;
+            bool isEmail = viewModel.SelectedLoginMethodIndex == 0;
+
+            var person = await FirebaseService.AuthenticateUserAsync(loginInput, password, isEmail);
+
+            if (person != null)
+            {
+                Preferences.Set("LoggedInNickname", person.Nickname);
+                await Navigation.PushAsync(new HomePage(person.Nickname));
+            }
+            else
+            {
+                await DisplayAlert("Ошибка", "Неверные данные", "OK");
+            }
         }
     }
 

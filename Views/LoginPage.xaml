@@ -30,13 +30,10 @@
                Text="{Binding LoginInput}"
                Margin="0,10" />
 
-        <Entry x:Name="NicknameEntry" Placeholder="Enter your nickname" />
-
         <!-- Поле ввода пароля, привязка к ViewModel -->
         <Entry Placeholder="Enter your password"
                IsPassword="True"
                Text="{Binding Password}"
-               x:Name="PasswordEntry"
                Margin="0,10" />
 
         <!-- Кнопка входа -->

@@ -49,32 +49,26 @@ namespace DotaProTracker.Services
             }
         }
 
-        public static async Task<Person?> AuthenticateUserAsync(string email, string password)
+        public static async Task<Person?> AuthenticateUserAsync(string loginInput, string password, bool isEmail)
         {
             try
             {
                 // Проверка, инициализирован ли клиент Firebase
                 if (client == null)
-                {
-                    throw new Exception("Firebase client не инициализирован. Убедитесь, что вызван FirebaseServices.Init().");
-                }
+                    throw new Exception("Firebase client не инициализирован.");
 
                 var usersSnapshot = await client.Child("persons").OnceAsync<Person>();
 
                 // Проверка, получены ли данные
                 if (usersSnapshot == null)
-                {
-                    throw new Exception("Не удалось получить данные пользователей из Firebase.");
-                }
+                    throw new Exception("Не удалось получить данные пользователей.");
 
-                var user = usersSnapshot.Select(u => u.Object).FirstOrDefault(u => u.Email == email);
+                var user = usersSnapshot
+                    .Select(u => u.Object)
+                    .FirstOrDefault(u =>
+                        isEmail ? u.Email == loginInput : u.Nickname == loginInput);
 
-                if (user != null && user.Password == password)
-                {
-                    return user;
-                }
-
-                return null; // Если пользователь не найден или пароль неверный
+                return user != null && user.Password == password ? user : null; // Если пользователь не найден или пароль неверный
             }
             catch (Exception ex)
             {
