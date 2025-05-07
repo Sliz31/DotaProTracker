@@ -1,7 +1,4 @@
-﻿using System;
-using Microsoft.Maui.Graphics;
-using Microsoft.Maui.Controls;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace DotaProTracker.Converters
 {

@@ -29,7 +29,7 @@
     <AppXManifest Include="E:\Shipaev Peter\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2025-05-07T07:47:04.585</Modified>
+      <Modified>2025-05-07T08:20:15.918</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Shipaev Peter\DotaProTracker\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\DotaProTracker.dll">
       <PackagePath>DotaProTracker.dll</PackagePath>
-      <Modified>2025-05-07T07:47:04.272</Modified>
+      <Modified>2025-05-07T08:20:15.616</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Shipaev Peter\DotaProTracker\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DotaProTracker.exe</PackagePath>
-      <Modified>2025-05-07T07:47:04.304</Modified>
+      <Modified>2025-05-07T08:20:15.647</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="E:\Shipaev Peter\DotaProTracker\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>

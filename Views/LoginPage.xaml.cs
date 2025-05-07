@@ -1,11 +1,5 @@
-﻿using DotaProTracker.Models;
-using DotaProTracker.Services;
-using Microsoft.Maui.Controls;
+﻿using DotaProTracker.Services;
 using DotaProTracker.ViewModels;
-using DotaProTracker.Views;
-using Microsoft.Maui.Storage;
-using System;
-using Microsoft.Extensions.Logging.Abstractions;
 namespace DotaProTracker;
 
 public partial class LoginPage : ContentPage

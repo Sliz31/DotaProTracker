@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DotaProTracker.Models;
+﻿using DotaProTracker.Models;
 using Firebase.Auth;
 using Firebase.Auth.Providers;
 using Firebase.Database;

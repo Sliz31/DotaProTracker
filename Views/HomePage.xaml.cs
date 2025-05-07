@@ -1,5 +1,4 @@
 ﻿using DotaProTracker.Views;
-using Microsoft.Maui.Controls;
 
 namespace DotaProTracker
 {

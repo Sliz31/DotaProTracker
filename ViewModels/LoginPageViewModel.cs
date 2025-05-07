@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Collections.ObjectModel;
 
@@ -30,26 +25,6 @@ namespace DotaProTracker.ViewModels
             set
             {
                 _loginInput = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Email
-        {
-            get => _email;
-            set
-            {
-                _email = value;
-                OnPropertyChanged();
-            }
-        }
-
-        public string Nickname
-        {
-            get => _nickname;
-            set
-            {
-                _nickname = value;
                 OnPropertyChanged();
             }
         }

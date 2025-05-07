@@ -4,12 +4,7 @@
              xmlns:vm="clr-namespace:DotaProTracker.ViewModels"
              x:Class="DotaProTracker.LoginPage"
              Title="LoginPage">
-               
-    <ContentPage.BindingContext>
-        <!-- Указываем ViewModel для страницы -->
-        <vm:LoginPageViewModel />
-    </ContentPage.BindingContext>
-    
+
     <VerticalStackLayout Padding="20">
         <!-- Заголовок страницы -->
         <Label Text="Login"
@@ -26,7 +21,8 @@
                 Margin="0,10" />
 
         <!-- Поле ввода для логина (email или nickname) -->
-        <Entry Placeholder="{Binding LoginPlaceholder}"
+        <Entry x:Name="LoginEntry" 
+               Placeholder="{Binding LoginPlaceholder}"
                Text="{Binding LoginInput}"
                Margin="0,10" />
 
