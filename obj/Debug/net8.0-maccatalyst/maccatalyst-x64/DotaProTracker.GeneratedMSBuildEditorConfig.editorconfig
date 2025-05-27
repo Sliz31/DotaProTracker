@@ -12,89 +12,103 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DotaProTracker
-build_property.ProjectDir = E:\Shipaev Peter\DotaProTracker\
+build_property.ProjectDir = C:\Programmy_C\DotaProTrackerCurs\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
-[E:/Shipaev Peter/DotaProTracker/App.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[E:/Shipaev Peter/DotaProTracker/AppShell.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Main.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Main.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Main.xaml
 build_metadata.AdditionalFiles.TargetPath = Main.xaml
 build_metadata.AdditionalFiles.RelativePath = Main.xaml
 
-[E:/Shipaev Peter/DotaProTracker/MainPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Resources/Styles/Colors.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Resources/Styles/Styles.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/HeroesPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/HeroesPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.HeroesPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HeroesPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HeroesPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/HomePage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.HomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\HomePage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\HomePage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/LoginPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/LoginPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.LoginPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\LoginPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\LoginPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/MainPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MainPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/MetaPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/MetaPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.MetaPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\MetaPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\MetaPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/PlayersPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/PlayersPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.PlayersPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\PlayersPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\PlayersPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/RegistrationPage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/RegistrationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.RegistrationPage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RegistrationPage.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\RegistrationPage.xaml
 
-[E:/Shipaev Peter/DotaProTracker/Views/WelcomePage.xaml]
+[C:/Programmy_C/DotaProTrackerCurs/Views/SavedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.SavedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\SavedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\SavedPage.xaml
+
+[C:/Programmy_C/DotaProTrackerCurs/Views/TopBar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.TopBar.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TopBar.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TopBar.xaml
+
+[C:/Programmy_C/DotaProTrackerCurs/Views/WelcomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DotaProTracker.Views.WelcomePage.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\WelcomePage.xaml

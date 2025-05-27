@@ -1,278 +1,223 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DotaProTracker.HomePage"
+             xmlns:views="clr-namespace:DotaProTracker.Views"
+             x:Class="DotaProTracker.Views.HomePage"
              BackgroundColor="White">
 
-    <!-- Верхняя панель -->
-    <ContentPage.Content>
-        <!-- Grid с тремя строками:
-             1) Верхняя панель
-             2) Горизонтальное меню
-             3) Прокручиваемый контент -->
-        <Grid RowDefinitions="Auto, Auto, *">
+    <Grid RowDefinitions="Auto, *">
+        <!-- Верхняя панель -->
+        <views:TopBar x:Name="topBar" Grid.Row="0" />
 
-            <!-- (1) Верхняя панель (row 0) 
-                 Включает 2 столбца:
-                 col 0: Картинка
-                 col 1: Под-сетка для "DotaProTracker", Saved, (User), Settings -->
-            <Grid Grid.Row="0" ColumnDefinitions="Auto,*" Padding="10">
-
-                <!-- col 0: Картинка слева (180x90) -->
-                <Image Source="stariy_bog.jpg"
-                       WidthRequest="180"
-                       HeightRequest="90"
-                       Grid.Column="0"
-                       VerticalOptions="Center" />
-
-                <!-- col 1: Под-сетка с 2 строками (верх: DotaProTracker и (User), низ: Saved и Settings) -->
-                <Grid Grid.Column="1" RowDefinitions="Auto,Auto" ColumnDefinitions="*,Auto" Padding="5">
-
-                    <!-- (1.1) Верхняя строка: DotaProTracker (слева), (User) (справа) -->
-                    <Label Text="DotaProTracker"
-                           FontSize="20"
-                           FontAttributes="Bold"
-                           TextColor="Black"
-                           VerticalOptions="Start"
-                           Grid.Row="0" Grid.Column="0" />
-
-                    <Label x:Name="WelcomeLabel"
-                           FontSize="20"
-                           FontAttributes="Bold"
-                           TextColor="Black"
-                           HorizontalOptions="End"
-                           VerticalOptions="Start"
-                           Grid.Row="0" Grid.Column="1" />
-
-                    <!-- (1.2) Нижняя строка: Saved (с иконкой) (слева), Settings (справа) -->
-                    <Button Text="Saved"
-                            ImageSource="bookmark.png"
-                            HorizontalOptions="Start"
-                            VerticalOptions="End"
-                            Clicked="OnSavedClicked"
-                            Grid.Row="1" Grid.Column="0" />
-
-                    <Button Text="Settings"
-                            FontSize="14"
-                            HorizontalOptions="End"
-                            VerticalOptions="End"
-                            Clicked="OnSettingsClicked"
-                            Grid.Row="1" Grid.Column="1" />
-                </Grid>
-            </Grid>
-
-            <!-- (2) Горизонтальное меню (row 1) -->
-            <Grid Grid.Row="1"
-                  ColumnDefinitions="*,*,*,*"
-                  BackgroundColor="#EEEEEE"
-                  Padding="5">
-                <Button Text="Home"
-                        BackgroundColor="#ccccff"
-                        FontSize="14"
-                        Grid.Column="0"
-                        Clicked="OnHomeClicked" />
-                <Button Text="Heroes"
-                        BackgroundColor="#ccccff"
-                        FontSize="14"
-                        Grid.Column="1"
-                        Clicked="OnHeroesClicked" />
-                <Button Text="Meta"
-                        BackgroundColor="#ccccff"
-                        FontSize="14"
-                        Grid.Column="2"
-                        Clicked="OnMetaClicked" />
-                <Button Text="Players"
-                        BackgroundColor="#ccccff"
-                        FontSize="14"
-                        Grid.Column="3"
-                        Clicked="OnPlayersClicked" />
-            </Grid>
-
-            <!-- Контент -->
-            <ScrollView Grid.Row="2">
-                <StackLayout Padding="10">
-
-                    <!-- Заголовок -->
-                    <Label Text="Welcome to the World of Dota 2: A Journey for Beginners" 
+        <!-- Контент -->
+        <ScrollView Grid.Row="1">
+            <StackLayout Padding="10">
+                <!-- Заголовок -->
+                <Label Text="Welcome to the World of Dota 2: A Journey for Beginners" 
                        FontSize="18" 
                        FontAttributes="Bold" 
                        TextColor="Black"/>
 
-                    <!-- Вступление -->
-                    <Label Text="Imagine an exhilarating world where every decision can change the course of the game, and teamwork and strategy are the keys to victory. This is Dota 2—one of the most popular and complex multiplayer online games of our time."
+                <!-- Вступление -->
+                <Label Text="Imagine an exhilarating world where every decision can change the course of the game, and teamwork and strategy are the keys to victory. This is Dota 2—one of the most popular and complex multiplayer online games of our time."
                        FontSize="14"
                        TextColor="Black"
                        Margin="0,5,0,15"/>
 
-                    <!-- Подзаголовок -->
-                    <Label Text="What is Dota 2?" 
+                <!-- Подзаголовок -->
+                <Label Text="What is Dota 2?" 
                        FontSize="16" 
                        FontAttributes="Bold" 
                        TextColor="Black"/>
 
-                    <Label Text="Dota 2 is a free-to-play multiplayer online battle arena (MOBA) game developed by Valve Corporation. It evolved from the original Defense of the Ancients (DotA) mod for Warcraft III and has garnered millions of fans worldwide. Dota 2 is renowned for its deep gameplay mechanics, diverse roster of heroes, and dynamic, action-packed matches."
+                <Label Text="Dota 2 is a free-to-play multiplayer online battle arena (MOBA) game developed by Valve Corporation. It evolved from the original Defense of the Ancients (DotA) mod for Warcraft III and has garnered millions of fans worldwide. Dota 2 is renowned for its deep gameplay mechanics, diverse roster of heroes, and dynamic, action-packed matches."
                        FontSize="14"
                        TextColor="Black"
                        Margin="0,5,0,15"/>
 
-                    <!-- Подзаголовок -->
-                    <Label Text="The Objective of the Game" 
+                <!-- Подзаголовок -->
+                <Label Text="The Objective of the Game" 
                        FontSize="16" 
                        FontAttributes="Bold" 
                        TextColor="Black"/>
 
+                <Label FontSize="14"
+                       TextColor="Black"
+                       Margin="0,5,0,5">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="In Dota 2, two teams of five players—" TextColor="Black"/>
+                            <Span Text="Radiant" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=" and " TextColor="Black"/>
+                            <Span Text="Dire" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="—battle against each other on a vast map. The primary goal of each team is to destroy the enemy's main structure, known as the " TextColor="Black"/>
+                            <Span Text="Ancient" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=", which is located deep within the opponent's base. Teams must work together to overcome enemy defenses, fight opposing heroes, and control the map to achieve victory." TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
 
-                    <Label FontSize="14" TextColor="Black">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="In Dota 2, two teams of five players—" TextColor="Black"/>
-                                <Span Text="Radiant" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=" and " TextColor="Black"/>
-                                <Span Text="Dire" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="—battle against each other on a vast map. The primary goal of each team is to destroy the enemy's main structure, known as the " TextColor="Black"/>
-                                <Span Text="Ancient" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=", which is located deep within the opponent's base. Teams must work together to overcome enemy defenses, fight opposing heroes, and control the map to achieve victory." TextColor="Black"/>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-
-                    <!-- Подзаголовок -->
-                    <Label Text="Gameplay Basics" 
-               FontSize="16" 
-               FontAttributes="Bold" 
-               TextColor="Black"
-               Margin="0,10,0,5"/>
-
-                    <!-- Список с переносами -->
-                    <Label FontSize="14" TextColor="Black">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <Span Text="• " TextColor="Black"/>
-                                <Span Text="Hero Selection: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="At the start of each game, you choose one of over 100 unique heroes, each with their own abilities, roles, and playstyles. Heroes often fall into broad categories such as Cores (like Carries or Mid Laners) and Supports." TextColor="Black"/>
-
-
-                                <!-- Заголовок списка -->
-                                <Span Text="&#x0a;• " TextColor="Black"/>
-                                <Span Text="Roles and Positions:" FontAttributes="Bold" TextColor="Black"/>
-
-                                <!-- Carry -->
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Carry" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=": Gains strength as the game progresses, eventually dealing significant damage. Requires farming to become powerful." TextColor="Black"/>
-
-                                <!-- Mid Laner -->
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Mid Laner" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=": Plays in the middle lane, quickly gaining levels and often influencing other lanes due to easier access across the map." TextColor="Black"/>
-
-                                <!-- Offlaner -->
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Offlaner" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=": Operates in a more challenging lane and provides initiation, control, or durability, creating space for their team's Carry." TextColor="Black"/>
-
-                                <!-- Hard Suppor -->
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Hard Support" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=": Focuses on assisting the team rather than farming. Provides vision through wards, protects the Carry in the early game, offers healing, disables, or buffs, and purchases utility items to benefit the entire team." TextColor="Black"/>
-
-                                <!-- Support -->
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Support" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=": Similar to Hard Support, but often has slightly more freedom to roam, gank, and secure kills. Soft Supports can still farm occasionally to acquire impactful items." TextColor="Black"/>
-
-
-                                <Span Text="&#x0a;• " TextColor="Black"/>
-                                <Span Text="Lanes and the Map: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="The map features three primary lanes—top, middle (mid), and bottom (bot)—where heroes initially farm gold and experience. Between these lanes lie neutral creep camps in the jungle. While some heroes can farm in the jungle after the laning phase or when they need to catch up on farm, there isn’t a fixed “jungler” role as in some other MOBAs. Instead, players adjust their strategies based on the game’s flow." TextColor="Black"/>
-
-
-                                <Span Text="&#x0a;• " TextColor="Black"/>
-                                <Span Text="Experience and Gold: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="By eliminating enemy creeps, heroes, and securing objectives like towers, you earn experience (to level up your hero’s abilities) and gold (to purchase items that increase your power)." TextColor="Black"/>
-
-
-                                <Span Text="&#x0a;• " TextColor="Black"/>
-                                <Span Text="Items: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Choosing appropriate items is crucial. Items can boost your hero’s attributes, add new abilities, or enhance survivability. Adapting your item build to the current game situation is a key skill in Dota 2." TextColor="Black"/>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-                    <!-- Подзаголовок -->
-                    <Label Text="Beginner's Guide" 
-                    FontSize="16" 
-                    FontAttributes="Bold" 
-                    TextColor="Black"
-                    Margin="0, 10, 0, 5" />
-
-                    <!-- Пункты Beginner's Guide -->
-                    <Label FontSize="14" TextColor="Black">
-                        <Label.FormattedText>
-                            <FormattedString>
-                                <!-- 1 -->
-                                <Span Text="1. Choose an Easy Hero: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Start with beginner-friendly heroes like " TextColor="Black"/>
-                                <Span Text="Sniper" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=", " TextColor="Black"/>
-                                <Span Text="Lich" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=", or " TextColor="Black"/>
-                                <Span Text="Viper" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text=", whose mechanics are straightforward." TextColor="Black"/>
-
-                                <!-- 2 -->
-                                <Span Text="&#x0a;" TextColor="Black"/>
-                                <Span Text="2. Learn the Basics:" FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Last-Hitting and Denying: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Practice timing your attacks to get the final hit on enemy creeps for gold. Deny your own low-health creeps to limit the enemy’s experience gain." TextColor="Black"/>
-
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Map Awareness and Vision: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Place wards in key locations to reveal enemy movements and avoid surprise attacks. Keep an eye on the minimap to track allies and enemies." TextColor="Black"/>
-
-                                <Span Text="&#x0a;   • " TextColor="Black"/>
-                                <Span Text="Understand Your Role: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="If you’re playing a Support, help your team by providing vision, saving allies, and setting up kills. If you’re a Core, focus on farming and growing stronger, while looking for opportunities to fight or take objectives." TextColor="Black"/>
-
-                                <!-- 3 -->
-                                <Span Text="&#x0a;" TextColor="Black"/>
-                                <Span Text="3. Use Learning Resources: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Start with bot matches, watch tutorials, and engage with the Dota 2 community to learn from experienced players." TextColor="Black"/>
-
-                                <!-- 4 -->
-                                <Span Text="&#x0a;" TextColor="Black"/>
-                                <Span Text="4. Don’t Be Afraid to Experiment: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Try different heroes, roles, and strategies to find what suits your style. Adaptation is key." TextColor="Black"/>
-
-                                <!-- 5 -->
-                                <Span Text="&#x0a;" TextColor="Black"/>
-                                <Span Text="5. Communication: " FontAttributes="Bold" TextColor="Black"/>
-                                <Span Text="Use voice or text chat to coordinate with teammates. Simple calls like 'ward here,' 'push together,' or 'back off' can greatly improve teamwork." TextColor="Black"/>
-                            </FormattedString>
-                        </Label.FormattedText>
-                    </Label>
-
-
-                    <!-- Заключение -->
-                    <Label Text="Conclusion" 
+                <!-- Подзаголовок -->
+                <Label Text="Gameplay Basics" 
                        FontSize="16" 
                        FontAttributes="Bold" 
                        TextColor="Black"
                        Margin="0,10,0,5"/>
 
-                    <Label Text="Dota 2 is a game of endless complexity, strategic depth, and thrilling moments. Although its learning curve may seem daunting, patience and perseverance will reward you with a richer understanding and more satisfying gameplay experiences. Embrace the challenges, learn from your mistakes, and you may someday stand among Dota 2’s most formidable competitors."
+                <!-- Список с переносами -->
+                <Label FontSize="14" TextColor="Black">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="• " TextColor="Black"/>
+                            <Span Text="Hero Selection: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="At the start of each game, you choose one of over 100 unique heroes, each with their own abilities, roles, and playstyles. Heroes often fall into broad categories such as Cores (like Carries or Mid Laners) and Supports." TextColor="Black"/>
+
+                            <!-- Заголовок списка -->
+                            <Span Text="&#x0a;• " TextColor="Black"/>
+                            <Span Text="Roles and Positions:" FontAttributes="Bold" TextColor="Black"/>
+
+                            <!-- Carry -->
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Carry" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=": Gains strength as the game progresses, eventually dealing significant damage. Requires farming to become powerful." TextColor="Black"/>
+
+                            <!-- Mid Laner -->
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Mid Laner" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=": Plays in the middle lane, quickly gaining levels and often influencing other lanes due to easier access across the map." TextColor="Black"/>
+
+                            <!-- Offlaner -->
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Offlaner" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=": Operates in a more challenging lane and provides initiation, control, or durability, creating space for their team's Carry." TextColor="Black"/>
+
+                            <!-- Hard Support -->
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Hard Support" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=": Focuses on assisting the team rather than farming. Provides vision through wards, protects the Carry in the early game, offers healing, disables, or buffs, and purchases utility items to benefit the entire team." TextColor="Black"/>
+
+                            <!-- Support -->
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Support" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=": Similar to Hard Support, but often has slightly more freedom to roam, gank, and secure kills. Soft Supports can still farm occasionally to acquire impactful items." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " TextColor="Black"/>
+                            <Span Text="Lanes and the Map: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="The map features three primary lanes—top, middle (mid), and bottom (bot)—where heroes initially farm gold and experience. Between these lanes lie neutral creep camps in the jungle. While some heroes can farm in the jungle after the laning phase or when they need to catch up on farm, there is no fixed jungle role as in some other MOBAs. Instead, players adjust their strategies based on the game's flow." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " TextColor="Black"/>
+                            <Span Text="Experience and Gold: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="By eliminating enemy creeps, heroes, and securing objectives like towers, you earn experience (to level up your hero's abilities) and gold (to purchase items that increase your power)." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " TextColor="Black"/>
+                            <Span Text="Items: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Choosing appropriate items is crucial. Items can boost your hero's attributes, add new abilities, or enhance survivability. Adapting your item build to the current game situation is a key skill in Dota 2." TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <!-- Подзаголовок -->
+                <Label Text="Beginner's Guide" 
+                    FontSize="16" 
+                    FontAttributes="Bold" 
+                    TextColor="Black"
+                    Margin="0, 10, 0, 5" />
+
+                <!-- Пункты Beginner's Guide -->
+                <Label FontSize="14" TextColor="Black">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <!-- 1 -->
+                            <Span Text="1. Choose an Easy Hero: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Start with beginner-friendly heroes like " TextColor="Black"/>
+                            <Span Text="Sniper" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=", " TextColor="Black"/>
+                            <Span Text="Lich" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=", or " TextColor="Black"/>
+                            <Span Text="Viper" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text=", whose mechanics are straightforward." TextColor="Black"/>
+
+                            <!-- 2 -->
+                            <Span Text="&#x0a;" TextColor="Black"/>
+                            <Span Text="2. Learn the Basics:" FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Last-Hitting and Denying: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Practice timing your attacks to get the final hit on enemy creeps for gold. Deny your own low-health creeps to limit the enemy's experience gain." TextColor="Black"/>
+
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Map Awareness and Vision: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Place wards in key locations to reveal enemy movements and avoid surprise attacks. Keep an eye on the minimap to track allies and enemies." TextColor="Black"/>
+
+                            <Span Text="&#x0a;   • " TextColor="Black"/>
+                            <Span Text="Understand Your Role: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="If you're playing a Support, help your team by providing vision, saving allies, and setting up kills. If you're a Core, focus on farming and growing stronger, while looking for opportunities to fight or take objectives." TextColor="Black"/>
+
+                            <!-- 3 -->
+                            <Span Text="&#x0a;" TextColor="Black"/>
+                            <Span Text="3. Use Learning Resources: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Start with bot matches, watch tutorials, and engage with the Dota 2 community to learn from experienced players." TextColor="Black"/>
+
+                            <!-- 4 -->
+                            <Span Text="&#x0a;" TextColor="Black"/>
+                            <Span Text="4. Don't Be Afraid to Experiment: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Try different heroes, roles, and strategies to find what suits your style. Adaptation is key." TextColor="Black"/>
+
+                            <!-- 5 -->
+                            <Span Text="&#x0a;" TextColor="Black"/>
+                            <Span Text="5. Communication: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Use voice or text chat to coordinate with teammates. Simple calls like 'ward here,' 'push together,' or 'back off' can greatly improve teamwork." TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+
+                <!-- Заключение -->
+                <Label Text="Conclusion" 
+                       FontSize="16" 
+                       FontAttributes="Bold" 
+                       TextColor="Black"
+                       Margin="0,10,0,5"/>
+
+                <Label Text="Dota 2 is a game of endless complexity, strategic depth, and thrilling moments. Although its learning curve may seem daunting, patience and perseverance will reward you with a richer understanding and more satisfying gameplay experiences. Embrace the challenges, learn from your mistakes, and you may someday stand among Dota 2's most formidable competitors."
                        FontSize="14"
                        TextColor="Black"
                        Margin="0,0,0,10"/>
 
-                    <Label Text="Good luck on the battlefield, and may your actions lead your team to victory!" 
+                <Label Text="Good luck on the battlefield, and may your actions lead your team to victory!" 
                        FontSize="16" 
                        FontAttributes="Bold" 
                        TextColor="Black"
                        HorizontalTextAlignment="Center"
                        Margin="0,5,0,15"/>
-                </StackLayout>
-            </ScrollView>
-        </Grid>
-    </ContentPage.Content>
+
+                <!-- Дополнительные ресурсы -->
+                <Label Text="Additional Resources" 
+                       FontSize="16" 
+                       FontAttributes="Bold" 
+                       TextColor="Black"
+                       Margin="0,10,0,5"/>
+
+                <Label FontSize="14" TextColor="Black">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="• " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Official Dota 2 Website: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Visit dota2.com for official news, updates, and tournament information." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Dota 2 Wiki: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="A comprehensive database of heroes, items, mechanics, and strategies." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Community Forums: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Join discussions, share experiences, and learn from other players." TextColor="Black"/>
+
+                            <Span Text="&#x0a;• " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Pro Player Streams: " FontAttributes="Bold" TextColor="Black"/>
+                            <Span Text="Watch professional players on Twitch.tv to learn advanced techniques." TextColor="Black"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
 </ContentPage>

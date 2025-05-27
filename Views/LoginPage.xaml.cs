@@ -1,7 +1,10 @@
 ﻿using DotaProTracker.Services;
 using DotaProTracker.ViewModels;
-namespace DotaProTracker;
+using DotaProTracker.Views;
+using DotaProTracker.Models;
 
+namespace DotaProTracker.Views
+{
 public partial class LoginPage : ContentPage
 {
     public LoginPage()
@@ -25,8 +28,9 @@ public partial class LoginPage : ContentPage
 
             if (person != null)
             {
+                    UserStore.CurrentUser = person;
                 Preferences.Set("LoggedInNickname", person.Nickname);
-                await Navigation.PushAsync(new HomePage(person.Nickname));
+                    await Navigation.PushAsync(new HomePage());
             }
             else
             {
@@ -39,5 +43,6 @@ public partial class LoginPage : ContentPage
     private async void OnRegisterClicked(object sender, EventArgs e)
     {
         await Navigation.PushAsync(new RegistrationPage());
+        }
     }
 }

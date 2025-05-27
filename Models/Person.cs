@@ -14,6 +14,7 @@ namespace DotaProTracker.Models
         public string Password { get; set; }
         public string Gender { get; set; }
         public string FireBaseID { get; set; }
+        public string ImageUrl { get; set; }
 
     }
 }

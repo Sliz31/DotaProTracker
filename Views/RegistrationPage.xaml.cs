@@ -1,14 +1,14 @@
 ﻿using DotaProTracker.Models;
 using DotaProTracker.Services;
+using DotaProTracker.ViewModels;
 
-namespace DotaProTracker
+namespace DotaProTracker.Views
 {
     public partial class RegistrationPage : ContentPage
     {
         public RegistrationPage()
         {
             InitializeComponent();
-  
         }
 
         // Обработчик события выбора пола
@@ -54,7 +54,8 @@ namespace DotaProTracker
                     Nickname = viewModel.Nickname,
                     Email = viewModel.Email,
                     Password = viewModel.Password,
-                    Gender = viewModel.Gender
+                    Gender = viewModel.Gender,
+                    ImageUrl = "profile_placeholder.png" // Set default profile picture
                 };
 
                 // Сохраняем пользователя

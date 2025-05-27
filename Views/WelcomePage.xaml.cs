@@ -1,6 +1,7 @@
 ﻿using DotaProTracker.Models;
+using DotaProTracker.Views;
 
-namespace DotaProTracker
+namespace DotaProTracker.Views
 {
     public partial class WelcomePage : ContentPage
     {

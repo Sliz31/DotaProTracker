@@ -1,12 +1,101 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:DotaProTracker.ViewModels"
+             xmlns:views="clr-namespace:DotaProTracker.Views"
+             xmlns:model="clr-namespace:DotaProTracker.Models"
+             xmlns:converters="clr-namespace:DotaProTracker.Converters"
              x:Class="DotaProTracker.Views.HeroesPage"
-             Title="HeroesPage">
-    <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
-    </VerticalStackLayout>
+             x:DataType="vm:HeroesViewModel"
+             Title="{Binding Title}"
+             BackgroundColor="White">
+
+    <ContentPage.Resources>
+        <converters:FavoriteIconConverter x:Key="FavoriteIconConverter"/>
+    </ContentPage.Resources>
+
+    <Grid RowDefinitions="Auto,*">
+        <views:TopBar x:Name="topBar" Grid.Row="0" />
+        <CollectionView x:Name="HeroesCollectionView"
+                       ItemsSource="{Binding Heroes}"
+                       Grid.Row="1">
+        <CollectionView.ItemTemplate>
+                <DataTemplate x:DataType="model:Hero">
+                    <Frame Margin="10" 
+                           Padding="10" 
+                           BorderColor="Gray" 
+                           CornerRadius="10">
+                        <Grid ColumnDefinitions="Auto,*,Auto">
+                            <Image Grid.Column="0" 
+                                   Source="{Binding SteamImageUrl}" 
+                                   WidthRequest="100" 
+                                   HeightRequest="56" />
+                            <StackLayout Grid.Column="1" Padding="10,0">
+                                <Label Text="{Binding LocalizedName}" 
+                                       FontAttributes="Bold"
+                                       FontSize="18" />
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Primary Attribute: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding PrimaryAttrReadable}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Attack Type: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding AttackType}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Label>
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="Roles: " FontAttributes="Bold"/>
+                                            <Span Text="{Binding Roles[0]}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                                <Button Text="🔊 Read Description" 
+                                        Clicked="OnReadDescriptionClicked"
+                                        CommandParameter="{Binding .}"
+                                        Margin="0,10,0,0" />
+                            </StackLayout>
+                            <Button Grid.Column="2"
+                                    Text="{Binding IsFavorite, Converter={StaticResource FavoriteIconConverter}}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type vm:HeroesViewModel}}, Path=ToggleFavoriteCommand}"
+                                    CommandParameter="{Binding .}"
+                                    BackgroundColor="Transparent"
+                                    TextColor="Gold"
+                                    FontSize="24"
+                                    Margin="0,0,10,0"
+                                    HeightRequest="40"
+                                    WidthRequest="40"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="Start" />
+                        </Grid>
+                    </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+
+        <!-- Loading Indicator -->
+        <Grid IsVisible="{Binding IsLoading}"
+              BackgroundColor="#80000000"
+              Grid.Row="1">
+            <StackLayout VerticalOptions="Center"
+                         HorizontalOptions="Center">
+                <ActivityIndicator IsRunning="True"
+                                 Color="White"
+                                 HeightRequest="50"
+                                 WidthRequest="50" />
+                <Label Text="Loading heroes..."
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,0" />
+            </StackLayout>
+        </Grid>
+    </Grid>
 </ContentPage>

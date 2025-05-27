@@ -8,8 +8,6 @@ namespace DotaProTracker.ViewModels
     {
         private string _loginInput = string.Empty; // Поле для ввода email или nickname
         private string _password = string.Empty;
-        private string _email = string.Empty;
-        private string _nickname = string.Empty;
         private int _selectedLoginMethodIndex; // Индекс выбранного метода (email или nickname)
         private string _loginPlaceholder = "Enter your email"; // Placeholder по умолчанию
 

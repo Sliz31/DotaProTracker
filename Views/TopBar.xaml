@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DotaProTracker.Views.TopBar">
+    
+    <ContentView.Resources>
+        <Style x:Key="NavButtonStyle" TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#ccccff" />
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextColor" Value="Black" />
+            <Setter Property="Margin" Value="2,0" />
+            <Setter Property="MinimumHeightRequest" Value="40" />
+        </Style>
+        
+        <Style x:Key="ActionButtonStyle" TargetType="Button">
+            <Setter Property="FontSize" Value="14" />
+            <Setter Property="TextColor" Value="White" />
+            <Setter Property="BackgroundColor" Value="#6B5B95" />
+            <Setter Property="Margin" Value="5" />
+            <Setter Property="MinimumHeightRequest" Value="40" />
+            <Setter Property="CornerRadius" Value="5" />
+        </Style>
+    </ContentView.Resources>
+
+    <VerticalStackLayout Spacing="0">
+        <!-- Верхняя панель -->
+        <Border BackgroundColor="White"
+                Stroke="Transparent"
+                StrokeThickness="0"
+                Shadow="{OnPlatform Android='10,0,0,0,#40000000', iOS='10,0,0,0,#40000000'}">
+            <Grid ColumnDefinitions="Auto,*" 
+                  Padding="10" 
+                  BackgroundColor="White">
+                
+                <!-- Логотип приложения -->
+                <Frame Grid.Column="0" 
+                       Padding="0" 
+                       IsClippedToBounds="True"
+                       CornerRadius="10"
+                       Margin="0,5"
+                       BorderColor="Transparent"
+                       HasShadow="False">
+                    <Image Source="stariy_bog.jpg" 
+                           WidthRequest="180" 
+                           HeightRequest="90" 
+                           Aspect="AspectFill"/>
+                </Frame>
+
+                <Grid Grid.Column="1" 
+                      RowDefinitions="Auto,Auto" 
+                      ColumnDefinitions="*,Auto" 
+                      Padding="10,5">
+                    
+                    <!-- Название приложения и приветствие -->
+                    <StackLayout Orientation="Horizontal" 
+                                Grid.Row="0" 
+                                Grid.Column="0" 
+                                Grid.ColumnSpan="2"
+                                Spacing="10">
+                        <Label Text="DotaProTracker"
+                               FontSize="24"
+                               FontAttributes="Bold"
+                               TextColor="#2C3E50"
+                               VerticalOptions="Center"/>
+                        <Label x:Name="WelcomeLabel"
+                               FontSize="20"
+                               FontAttributes="Bold"
+                               TextColor="#34495E"
+                               VerticalOptions="Center"
+                               HorizontalOptions="EndAndExpand"/>
+                    </StackLayout>
+
+                    <!-- Кнопки действий -->
+                    <HorizontalStackLayout Grid.Row="1" 
+                                         Grid.Column="0" 
+                                         Grid.ColumnSpan="2" 
+                                         Spacing="10">
+                        <Button Text="Saved" 
+                                Style="{StaticResource ActionButtonStyle}"
+                                ImageSource="bookmark.png" 
+                                Clicked="OnSavedClicked" />
+                        <Button Text="Settings" 
+                                Style="{StaticResource ActionButtonStyle}"
+                                Clicked="OnSettingsClicked" />
+                    </HorizontalStackLayout>
+                </Grid>
+            </Grid>
+        </Border>
+
+        <!-- Нижнее меню -->
+        <Border Stroke="#E8E8E8"
+                StrokeThickness="1">
+            <Grid ColumnDefinitions="*,*,*,*" 
+                  BackgroundColor="#F8F9FA" 
+                  Padding="5">
+                <Button Text="Home" 
+                        Style="{StaticResource NavButtonStyle}"
+                        Grid.Column="0" 
+                        Clicked="OnHomeClicked" />
+                <Button Text="Heroes" 
+                        Style="{StaticResource NavButtonStyle}"
+                        Grid.Column="1" 
+                        Clicked="OnHeroesClicked" />
+                <Button Text="Meta" 
+                        Style="{StaticResource NavButtonStyle}"
+                        Grid.Column="2" 
+                        Clicked="OnMetaClicked" />
+                <Button Text="Players" 
+                        Style="{StaticResource NavButtonStyle}"
+                        Grid.Column="3" 
+                        Clicked="OnPlayersClicked" />
+            </Grid>
+        </Border>
+    </VerticalStackLayout>
+</ContentView> 

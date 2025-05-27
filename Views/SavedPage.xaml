@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:vm="clr-namespace:DotaProTracker.ViewModels"
+             xmlns:model="clr-namespace:DotaProTracker.Models"
+             xmlns:views="clr-namespace:DotaProTracker.Views"
+             x:Class="DotaProTracker.Views.SavedPage"
+             x:DataType="vm:SavedViewModel"
+             Title="{Binding Title}"
+             BackgroundColor="White">
+
+    <Grid RowDefinitions="Auto, *">
+        <views:TopBar Grid.Row="0" />
+
+        <RefreshView Grid.Row="1"
+                     Command="{Binding LoadSavedHeroesCommand}"
+                     IsRefreshing="{Binding IsBusy}">
+            <CollectionView ItemsSource="{Binding SavedHeroes}"
+                          SelectionMode="None">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate x:DataType="model:Hero">
+                        <Frame Margin="10" 
+                               Padding="10" 
+                               BorderColor="Gray" 
+                               CornerRadius="10">
+                            <Grid ColumnDefinitions="Auto,*">
+                                <Image Grid.Column="0" 
+                                       Source="{Binding SteamImageUrl}" 
+                                       WidthRequest="100" 
+                                       HeightRequest="56" />
+                                <StackLayout Grid.Column="1" Padding="10,0">
+                                    <Label Text="{Binding LocalizedName}" 
+                                           FontAttributes="Bold"
+                                           FontSize="18" />
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Primary Attribute: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding PrimaryAttrReadable}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Attack Type: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding AttackType}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                    <Label>
+                                        <Label.FormattedText>
+                                            <FormattedString>
+                                                <Span Text="Roles: " FontAttributes="Bold"/>
+                                                <Span Text="{Binding Roles[0]}"/>
+                                            </FormattedString>
+                                        </Label.FormattedText>
+                                    </Label>
+                                </StackLayout>
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+                <CollectionView.EmptyView>
+                    <StackLayout Padding="20">
+                        <Label Text="No saved heroes yet"
+                               HorizontalOptions="Center"
+                               TextColor="Gray"
+                               FontSize="18"/>
+                        <Label Text="Add heroes to your favorites by tapping the star icon on the Heroes page"
+                               HorizontalOptions="Center"
+                               TextColor="Gray"
+                               FontSize="14"/>
+                    </StackLayout>
+                </CollectionView.EmptyView>
+            </CollectionView>
+        </RefreshView>
+
+        <!-- Loading Indicator -->
+        <Grid IsVisible="{Binding IsLoading}"
+              BackgroundColor="#80000000"
+              Grid.Row="1">
+            <StackLayout VerticalOptions="Center"
+                        HorizontalOptions="Center">
+                <ActivityIndicator IsRunning="True"
+                                 Color="White"
+                                 HeightRequest="50"
+                                 WidthRequest="50" />
+                <Label Text="Loading heroes..."
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       Margin="0,10,0,0" />
+            </StackLayout>
+        </Grid>
+    </Grid>
+</ContentPage> 

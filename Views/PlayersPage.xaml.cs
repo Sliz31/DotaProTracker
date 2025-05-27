@@ -6,4 +6,9 @@ public partial class PlayersPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+	}
 }

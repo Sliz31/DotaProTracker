@@ -6,4 +6,9 @@ public partial class MetaPage : ContentPage
 	{
 		InitializeComponent();
 	}
+
+	protected override void OnAppearing()
+	{
+		base.OnAppearing();
+	}
 }
