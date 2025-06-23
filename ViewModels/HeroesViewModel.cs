@@ -16,6 +16,7 @@ namespace DotaProTracker.ViewModels
         private readonly FavoritesService _favoritesService;
         private bool _isBusy;
         private bool _isInitialized;
+        private bool _isLoadingHeroes = false;
 
         [ObservableProperty]
         private ObservableCollection<Hero> heroes = new ObservableCollection<Hero>();
@@ -47,10 +48,8 @@ namespace DotaProTracker.ViewModels
 
         public async Task LoadHeroesAsync()
         {
-            if (_isInitialized) return;
-            
-            Debug.WriteLine("HeroesViewModel: LoadHeroesAsync started");
-            
+            if (_isInitialized || _isLoadingHeroes) return;
+            _isLoadingHeroes = true;
             try
             {
                 IsLoading = true;
@@ -101,13 +100,14 @@ namespace DotaProTracker.ViewModels
             finally
             {
                 IsLoading = false;
+                _isLoadingHeroes = false;
                 Debug.WriteLine("HeroesViewModel: LoadHeroesAsync completed");
             }
         }
 
         private async Task LoadHeroes()
         {
-            if (IsBusy || _isInitialized)
+            if (IsBusy || _isInitialized || _isLoadingHeroes)
                 return;
 
             await LoadHeroesAsync();

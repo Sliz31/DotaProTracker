@@ -93,7 +93,7 @@
         <Label HorizontalOptions="Center" VerticalOptions="Center">
             <Label.FormattedText>
                 <FormattedString>
-                    <Span Text="Have an account? " TextColor="Black" />
+                    <Span Text="Have an account? " TextColor="White" />
                     <Span Text="Login now!" TextColor="Blue" TextDecorations="Underline">
                         <Span.GestureRecognizers>
                             <TapGestureRecognizer Tapped="OnLoginClicked" />
